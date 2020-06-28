@@ -7,7 +7,7 @@
         <methods>
           <include name="ValidateLogin"/>
           <include name="closeApp"/>
-          <include name="launch"/>
+          <include name="Initialize"/>
         </methods>
       </class> <!-- EEExecution.ExecuteCases -->
     </classes>

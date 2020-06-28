@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27325" started-at="2020-06-28T03:35:42 IST" finished-at="2020-06-28T03:36:09 IST">
+  <suite name="Default suite" duration-ms="22022" started-at="2020-06-28T22:59:16 IST" finished-at="2020-06-28T22:59:38 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27325" started-at="2020-06-28T03:35:42 IST" finished-at="2020-06-28T03:36:09 IST">
+    <test name="Default test" duration-ms="22022" started-at="2020-06-28T22:59:16 IST" finished-at="2020-06-28T22:59:38 IST">
       <class name="EEExecution.ExecuteCases">
-        <test-method status="PASS" signature="launch()[pri:0, instance:EEExecution.ExecuteCases@5185bd]" name="launch" is-config="true" duration-ms="20502" started-at="2020-06-28T03:35:42 IST" finished-at="2020-06-28T03:36:02 IST">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:EEExecution.ExecuteCases@a74868d]" name="Initialize" is-config="true" duration-ms="11236" started-at="2020-06-28T22:59:16 IST" finished-at="2020-06-28T22:59:27 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:EEExecution.ExecuteCases@5185bd]" name="ValidateLogin" duration-ms="6760" started-at="2020-06-28T03:36:02 IST" finished-at="2020-06-28T03:36:09 IST">
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="ValidateLogin()[pri:0, instance:EEExecution.ExecuteCases@a74868d]" name="ValidateLogin" duration-ms="10051" started-at="2020-06-28T22:59:27 IST" finished-at="2020-06-28T22:59:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ValidateLogin -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:EEExecution.ExecuteCases@5185bd]" name="closeApp" is-config="true" duration-ms="0" started-at="2020-06-28T03:36:09 IST" finished-at="2020-06-28T03:36:09 IST">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:EEExecution.ExecuteCases@a74868d]" name="closeApp" is-config="true" duration-ms="632" started-at="2020-06-28T22:59:37 IST" finished-at="2020-06-28T22:59:38 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->

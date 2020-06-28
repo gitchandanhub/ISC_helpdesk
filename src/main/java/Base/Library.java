@@ -3,6 +3,7 @@ package Base;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class Library extends BaseDriver
 {
@@ -73,9 +74,22 @@ public class Library extends BaseDriver
     	webelement = getWebElement(locator, locator_type);
     	webelement.sendKeys(text);
     }
+    public void Enternumerictext(String locator, String locator_type, int text)
+    {
+    	webelement = getWebElement(locator, locator_type);
+    	webelement.sendKeys(String.valueOf(text));
+    }
     public String getText(String locator, String locator_type)
     {
     	webelement = getWebElement(locator, locator_type);
     	return webelement.getText();
+    }
+    
+    public void selectvalue(String  locator, String locator_type, int index)
+    {
+    	webelement = getWebElement(locator, locator_type);
+    	Select slt = new Select(webelement);
+    	slt.selectByIndex(index);
+    	
     }
 }

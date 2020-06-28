@@ -31,4 +31,23 @@ public class Loginpage extends BaseDriver
     	   library.clickonwebelement(object.getProperty("loginbutton_id"), "id");
     	   log.info("login button clicked");
        }
+       
+       public void selectquuestion(int index)
+       {
+    	   library.selectvalue(object.getProperty("Question_id"), "id", index);
+       }
+       
+       public void EnterAnswer(String ans)
+       {
+    	   library.Entertext(object.getProperty("Answer_id"), "id", "1");
+       }
+       
+       public void clicksubmit()
+       {
+    	   library.clickonwebelement(object.getProperty("buttonsubmit_id"), "id");
+       }
+       public void clickcancel()
+       {
+    	   library.clickonwebelement(object.getProperty("buttoncancel"), "id");
+       }
 }
